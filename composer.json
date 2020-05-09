@@ -1,0 +1,34 @@
+{
+    "name": "buffary/phalcon-middleware",
+    "description": "a phalcon middleware component",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "phalcon-middleware",
+        "phalcon"
+    ],
+    "authors": [
+        {
+            "name": "unknow",
+            "email": "unknow@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Buffary\\Phalcon\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-phalcon": "^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=4.8",
+        "phalcon/dd": "^1.1"
+    }
+}
